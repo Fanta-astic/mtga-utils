@@ -105,8 +105,8 @@ def main(args_string=None):
 
     args = parse_arguments(args_string)
 
-    log_file = MTGA_WINDOWS_LOG_FILE
-    formats_file = MTGA_WINDOWS_FORMATS_FILE
+#    log_file = MTGA_WINDOWS_LOG_FILE
+#    formats_file = MTGA_WINDOWS_FORMATS_FILE
 
     if args.log_file:
         log_file = args.log_file[0]
